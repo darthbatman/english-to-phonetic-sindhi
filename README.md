@@ -5,7 +5,9 @@ Tool that converts user-inputted English text to its Phonetic Sindhi translation
 
 `go build app.go`
 
-`./app "This is some text I want translated."`
+`./app "This is some text I want translated." [--show-arabic]`
+
+If the `--show-arabic` flag is used, the Arabic representation of the Sindhi translation will also be displayed.
 
 This tool uses the Google Cloud Translation API.
 
