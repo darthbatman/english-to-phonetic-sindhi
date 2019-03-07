@@ -11,7 +11,7 @@ import (
 
 func main() {
         if len(os.Args) < 2 {
-            fmt.Println("Usage: ./app \"Text to translate.\" [--show-arabic]")
+            fmt.Println("Usage: ./translate \"Text to translate.\" [--show-arabic]")
             return
         }
 
@@ -32,7 +32,7 @@ func main() {
             if flag == "--show-arabic" {
                 showArabic = true
             } else {
-                fmt.Println("Flag not found: %v", flag)
+                fmt.Println("Flag not found: ", flag)
                 return
             }
         }

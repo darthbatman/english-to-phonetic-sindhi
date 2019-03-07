@@ -3,9 +3,9 @@ Tool that converts user-inputted English text to its Phonetic Sindhi translation
 
 ## Usage
 
-`go build app.go`
+`go build translate.go`
 
-`./app "This is some text I want translated." [--show-arabic]`
+`./translate "This is some text I want translated." [--show-arabic]`
 
 If the `--show-arabic` flag is used, the Arabic representation of the Sindhi translation will also be displayed.
 
